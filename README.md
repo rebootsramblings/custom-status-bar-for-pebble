@@ -41,3 +41,5 @@ When you're done, destroy
 ```c
 custom_status_bar_layer_destroy(custom_status_bar);
 ```
+
+See the header file for more details. Enjoy!
