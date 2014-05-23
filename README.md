@@ -45,3 +45,9 @@ custom_status_bar_layer_destroy(custom_status_bar);
 One last note! Your window should have a height of 168 - BAR_HEIGHT.
 
 See the header file for more details. Enjoy!
+
+A couple of screenshots, promise to add better ones as I get them.
+
+![Alt text](http://rebootsramblings.ca/forumpictures/icons.png "Icons")
+
+![Alt text](http://rebootsramblings.ca/forumpictures/textlayers.png "Text")
