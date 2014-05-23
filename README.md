@@ -14,25 +14,30 @@ Choose a status bar height and icon size. Icons should be square with a maximum 
 ```
 
 Declare
-
+```c
 static CustomStatusBarLayer *custom_status_bar;
+```
 
 Create
-
+```c
 custom_status_bar = custom_status_bar_layer_create(BAR_HEIGHT, GColorBlack, ICON_WIDTH_HEIGHT);
+```
 
 Set Text and Icons
 
 Text layers, use positions CSB_TEXT_LEFT, CSB_TEXT_RIGHT, CSB_TEXT_CENTER
-
+```c
 char *t = ...;
 
 custom_status_bar_layer_set_text(custom_status_bar, CSB_TEXT_LEFT, t);
+```
 
 Icons, use positions CSB_ICON_0 to CSB_ICON_4 (positions are left to right, 0 indexed)
-
+```c
 custom_status_bar_layer_set_bitmap(custom_status_bar, CSB_ICON_4, your_gbitmap); 
+```
 
 When you're done, destroy
-
+```c
 custom_status_bar_layer_destroy(custom_status_bar);
+```
