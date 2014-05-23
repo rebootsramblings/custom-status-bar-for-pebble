@@ -42,4 +42,6 @@ When you're done, destroy
 custom_status_bar_layer_destroy(custom_status_bar);
 ```
 
+One last note! Your window should have a height of 168 - BAR_HEIGHT.
+
 See the header file for more details. Enjoy!
