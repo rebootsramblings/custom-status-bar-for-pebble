@@ -37,6 +37,11 @@ Icons, use positions CSB_ICON_0 to CSB_ICON_4 (positions are left to right, 0 in
 custom_status_bar_layer_set_bitmap(custom_status_bar, CSB_ICON_4, your_gbitmap); 
 ```
 
+Add the status bar to the window
+```c
+layer_add_child(window_get_root_layer(window), custom_status_bar);
+```
+
 When you're done, destroy
 ```c
 custom_status_bar_layer_destroy(custom_status_bar);
